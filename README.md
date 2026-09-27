@@ -1,10 +1,14 @@
 # 🛒 GrocersBasket - Grocery Admin Dashboard UI
 
-GrocersBasket: A functional Grocery Store Admin Dashboard UI, designed in Figma and built with HTML, CSS, and JS
+**GrocersBasket** is a responsive frontend HTML/CSS/JavaScript admin dashboard interface designed for grocery store management and operational visualization.
+
+---
 
 ## 📌 GitHub Description (About Section)
 
-> *A frontend Admin Dashboard UI for grocery store management built with HTML, CSS, JavaScript, and Chart.js.*
+> *A responsive frontend Admin Dashboard UI for grocery store management built with HTML, CSS, JavaScript, and Chart.js.*
+
+---
 
 ## 🚀 Features Implemented
 
@@ -18,9 +22,21 @@ GrocersBasket: A functional Grocery Store Admin Dashboard UI, designed in Figma 
   - **Account Screens**: Login, logout, account recovery, and verification templates.
 - 🎨 **Custom Styling**: Clean, responsive layout built with CSS flexbox/grid and Google Fonts (*Outfit*).
 
+---
+
 ## 🛠️ Tech Stack
 
 - **HTML5**
 - **CSS3** (Custom stylesheets)
 - **JavaScript (ES6)**
 - **Chart.js & ChartDataLabels** (Data visualization)
+
+---
+
+## 💻 How to View
+
+1. Clone or download the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/grocery-website.git
+   ```
+2. Open `HTML Files/Dashboard.html` or `HTML Files/login.html` in any web browser.
