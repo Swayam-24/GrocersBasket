@@ -6,7 +6,7 @@
 
 ## 📌 GitHub Description (About Section)
 
-> *A responsive frontend Admin Dashboard UI for grocery store management built with HTML, CSS, JavaScript, and Chart.js.*
+> *A frontend Admin Dashboard UI for grocery store management built with HTML, CSS, JavaScript, and Chart.js.*
 
 ---
 
