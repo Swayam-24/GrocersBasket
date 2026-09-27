@@ -30,15 +30,14 @@ aside {
 /* NOTE: I will omit the non-responsive styles for brevity, assuming they remain */
 
 aside h2 {
-    display: flex;
-    align-items: center;
-    left:0;
-    font-size: 28px;
-    font-weight: bold;
-    margin: 0 0 15px 25px;
-    color: black;
-    gap:5px;
-    margin-left: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #0b3c2d;
+    padding: 18px 20px 10px 20px;
+    margin: 0;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
 aside img {
@@ -457,9 +456,15 @@ button, .search-bar, .account-icon, i {
     
     /* Shrink the font/padding inside the sidebar */
     aside h2 {
-        font-size: 22px;
-        margin-left: 10px;
-    }
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #0b3c2d;
+    padding: 18px 20px 10px 20px;
+    margin: 0;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
     .menu > li, .products li {
         font-size: 14px;
         padding: 6px 10px;
