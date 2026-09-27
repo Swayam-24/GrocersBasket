@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="../CSS files/mostordered.css">
+    </head>
+    <body>
+        <aside>
+          <h2><img src="../Images/grocery.png">Grocery</h2>
+          <nav>
+             <ul class="menu">
+                <li><img src="../Images/Loginicon.png"><a href="./login.html" style="text-decoration:none; color:black;">Login</a></li>
+                <li><img src="../Images/Dashboard.png"><a href="./Dashboard.html" style="text-decoration:none; color:black;">Dashboard</a></li>
+                <li><img src="../Images/Product.png"><a href="./products.html" style="text-decoration:none; color:black;">Product Page</a></li>
+                <ul class="products">
+                    <li class="product"><img src="../Images/Arrow.png"><a href="./mostordered.html" style="text-decoration:none; color:black;">Most Ordered</a></li>
+                <li><img src="../Images/Arrow.png"><a href="./leastordered.html" style="text-decoration:none; color:black;">Least Ordered</a></li>
+                <li><img src="../Images/Arrow.png"><a href="./products.html" style="text-decoration:none; color:black;">Products</a></li>
+                <li><img src="../Images/Arrow.png"><a href="./productstock.html" style="text-decoration:none; color:black;">Product Stock</a></li>
+                </ul>
+                <li><img src="../Images/Users.png"><a href="./users.html" style="text-decoration:none; color:black;">Users</a></li>
+                <li><img src="../Images/order.png"><a href="./ordermanagement.html" style="text-decoration:none; color:black;">Order Management</a></li>
+                <li><img src="../Images/van.png"><a href="./Delivery.html" style="text-decoration:none; color:black;">Delivery Partners</a></li>
+                <li><img src="../Images/Employee.png"><a href="./employee.html" style="text-decoration:none; color:black;">Employee</a></li>
+                <li><img src="../Images/Transaction.png"><a href="./transaction.html" style="text-decoration:none; color:black;">Transaction</a></li>
+                <li><img src="../Images/gift.png"><a href="./promotions.html" style="text-decoration:none; color:black;">Promotions & Offers</a></li>
+             </ul>
+             <ul class="logout">
+                <li><img src="../Images/logout.png"><a href="./logout.html" style="text-decoration:none; color:black;">Log Out</a></li>
+             </ul>
+          </nav>
+        </aside>
+ <header>
+  <h2>MOST ORDERED</h2>
+  <div class="header-right">
+    <div class="search-bar">
+      <img src="../Images/Search.png" style="width:20px;">
+      <input type="text" placeholder="Search">
+    </div>
+    <button class="download-btn">
+      <img src="../Images/Download.png"> Export File
+    </button>
+    <div class="account-icon">
+      <i class="bi bi-person-circle"></i>
+    </div>
+  </div>
+</header>
+<div class="filter-bar">
+  <div class="filter-buttons">
+    <a href="./mostordered.html" class="filter-btn" style="text-decoration:none; color:black;" >All Time</a>
+    <a href="./mostorderedthiswk.html" class="filter-btn" style="text-decoration:none; color:black;">This Week</a>
+    <a href="./mostorderedtoday.html"  class="filter-btn active" style="text-decoration:none; color:black;">Today</a>
+  </div>
+  <button class="add-entry">Add Entry</button>
+</div>
+<div class="data-section">
+  <table class="exact-table">
+    <thead>
+      <tr>
+        <th>PRODUCT NAME</th>
+        <th>CATEGORY</th>
+        <th>PRICE</th>
+        <th>STOCK/<br>QUANTITY</th>
+        <th>UNIT/WEIGHT</th>
+        <th>STATUS</th>
+      </tr>
+     </thead>
+     <tbody>
+        <tr>
+          <td>P0001</td>
+          <td>LOREM IPSUM</td>
+          <td>60</td>
+          <td>120</td>
+          <td>1kg</td>
+          <td>ACTIVE</td>
+        </tr>
+     </tbody>
+     <tbody>
+        <tr>
+          <td>P0001</td>
+          <td>LOREM IPSUM</td>
+          <td>60</td>
+          <td>120</td>
+          <td>1kg</td>
+          <td>ACTIVE</td>
+        </tr>
+     </tbody>
+     <tbody>
+        <tr>
+          <td>P0001</td>
+          <td>LOREM IPSUM</td>
+          <td>60</td>
+          <td>120</td>
+          <td>1kg</td>
+          <td>ACTIVE</td>
+        </tr>
+     </tbody>
+     <tbody>
+        <tr>
+          <td>P0001</td>
+          <td>LOREM IPSUM</td>
+          <td>60</td>
+          <td>120</td>
+          <td>1kg</td>
+          <td>ACTIVE</td>
+        </tr>
+     </tbody>
+     <tbody>
+        <tr>
+          <td>P0001</td>
+          <td>LOREM IPSUM</td>
+          <td>60</td>
+          <td>120</td>
+          <td>1kg</td>
+          <td>ACTIVE</td>
+        </tr>
+     </tbody>
+     <tbody>
+        <tr>
+          <td>P0001</td>
+          <td>LOREM IPSUM</td>
+          <td>60</td>
+          <td>120</td>
+          <td>1kg</td>
+          <td>ACTIVE</td>
+        </tr>
+     </tbody>
+     <tbody>
+        <tr>
+          <td>P0001</td>
+          <td>LOREM IPSUM</td>
+          <td>60</td>
+          <td>120</td>
+          <td>1kg</td>
+          <td>ACTIVE</td>
+        </tr>
+     </tbody>
+     </table>
+    </div>
+    <div class="pagination">
+  <button class="page-btn">1</button>
+  <button class="page-btn">2</button>
+  <button class="page-btn">3</button>
+  <button class="page-btn">4</button>
+  <button class="page-btn next">&gt;</button>
+</div>
+</body>
+</html>

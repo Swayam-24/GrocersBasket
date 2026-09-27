@@ -1,0 +1,177 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #E7FEB9 0%, #E7FEB9 30%, #34b9a9 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(to right, #C3F781, #4AFFE9);
+      padding: 15px 30px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    header h2 {
+      margin: 0;
+      font-size: 22px;
+      font-weight: bold;
+      color: #000;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    header h2 img {
+      width: 35px;
+      height: 35px;
+      object-fit: contain;
+    }
+
+    /* Center Container */
+    .verify-container {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    /* Card */
+    .verify-card {
+      text-align: center;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .verify-card h3 {
+      font-size: 20px;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+
+    .verify-card p {
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .verify-card form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    /* Input */
+    .verify-card input {
+      width: 100%;
+      max-width: 250px;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      background: #fff;
+      font-size: 16px;
+      box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+      text-align: center;
+      letter-spacing: 5px;
+    }
+
+    /* Resend link */
+    .verify-card a.resend-link {
+      font-size: 14px;
+      color: #1e5a8f;
+      text-decoration: none;
+      font-weight: bold;
+      text-align: center;
+    }
+    
+    .verify-card a.resend-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Submit Button */
+    .verify-card .submit-btn {
+      width: 100%;
+      max-width: 280px;
+      padding: 12px;
+      background-color: #1e5a8f;
+      color: white;
+      border: none;
+      border-radius: 15px;
+      font-size: 15px;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      box-sizing: border-box;
+      transition: background-color 0.3s ease;
+    }
+    
+    .verify-card .submit-btn:hover {
+      background-color: #164a73;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header h2 {
+        font-size: 20px;
+      }
+      
+      header h2 img {
+        width: 30px;
+        height: 30px;
+      }
+      
+      .verify-card {
+        max-width: 350px;
+      }
+      
+      .verify-card h3 {
+        font-size: 18px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      header {
+        padding: 12px 20px;
+      }
+      
+      header h2 {
+        font-size: 18px;
+      }
+      
+      header h2 img {
+        width: 28px;
+        height: 28px;
+      }
+      
+      .verify-card {
+        width: 95%;
+        max-width: 320px;
+      }
+      
+      .verify-card h3 {
+        font-size: 16px;
+      }
+      
+      .verify-card p {
+        font-size: 13px;
+      }
+      
+      .verify-card input {
+        max-width: 200px;
+        padding: 10px;
+      }
+      
+      .verify-card .submit-btn {
+        max-width: 240px;
+        padding: 10px;
+        font-size: 14px;
+      }
+    }

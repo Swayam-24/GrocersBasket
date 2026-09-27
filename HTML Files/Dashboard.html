@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS files/dashboard.css">
+</head>
+
+<body>
+    <aside>
+        <h2><img src="../Images/grocery.png">GrocersBasket</h2>
+        <nav>
+            <ul class="menu">
+                <li><img src="../Images/Loginicon.png"><a href="./login.html"
+                        style="text-decoration:none; color:black;">Login</a></li>
+                <li><img src="../Images/Dashboard.png"><a href="./Dashboard.html"
+                        style="text-decoration:none; color:black;">Dashboard</a></li>
+                <li><img src="../Images/Product.png"><a href="./products.html"
+                        style="text-decoration:none; color:black;">Product Page</a></li>
+                <ul class="products">
+                    <li class="product"><img src="../Images/Arrow.png"><a href="./mostordered.html"
+                            style="text-decoration:none; color:black;">Most Ordered</a></li>
+                    <li><img src="../Images/Arrow.png"><a href="./leastordered.html"
+                            style="text-decoration:none; color:black;">Least Ordered</a></li>
+                    <li><img src="../Images/Arrow.png"><a href="./products.html"
+                            style="text-decoration:none; color:black;">Products</a></li>
+                    <li><img src="../Images/Arrow.png"><a href="./productstock.html"
+                            style="text-decoration:none; color:black;">Product Stock</a></li>
+                </ul>
+                <li><img src="../Images/Users.png"><a href="./users.html"
+                        style="text-decoration:none; color:black;">Users</a></li>
+                <li><img src="../Images/order.png"><a href="./ordermanagement.html"
+                        style="text-decoration:none; color:black;">Order Management</a></li>
+                <li><img src="../Images/van.png"><a href="./Delivery.html"
+                        style="text-decoration:none; color:black;">Delivery Partners</a></li>
+                <li><img src="../Images/Employee.png"><a href="./employee.html"
+                        style="text-decoration:none; color:black;">Employee</a></li>
+                <li><img src="../Images/Transaction.png"><a href="./transaction.html"
+                        style="text-decoration:none; color:black;">Transaction</a></li>
+                <li><img src="../Images/gift.png"><a href="./promotions.html"
+                        style="text-decoration:none; color:black;">Promotions & Offers</a></li>
+            </ul>
+            <ul class="logout">
+                <li><img src="../Images/logout.png"><a href="./logout.html"
+                        style="text-decoration:none; color:black;">Log Out</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <header>
+        <h2>DASHBOARD</h2>
+        <div class="header-right">
+            <div class="search-bar">
+                <img src="../Images/Search.png" style="width:20px;">
+                <input type="text" placeholder="Search">
+            </div>
+            <button class="download-btn">
+                <img src="../Images/Download.png"> Export File
+            </button>
+            <div class="account-icon">
+                <i class="bi bi-person-circle"></i>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="summary-cards-grid">
+            <div class="card">
+                <h5>Total Orders</h5>
+                <h4>120</h4>
+            </div>
+
+            <div class="card">
+                <h5>Total Revenue</h5>
+                <h4>120</h4>
+            </div>
+
+            <div class="card">
+                <h5>Pending Orders</h5>
+                <h4>120</h4>
+            </div>
+
+            <div class="card">
+                <h5>Detailed Orders</h5>
+                <h4>120</h4>
+            </div>
+
+            <div class="card">
+                <h5>Cancelled Orders</h5>
+                <h4>120</h4>
+            </div>
+
+            <div class="card">
+                <h5>Returned / Exchanged</h5>
+                <h4>120</h5>
+            </div>
+
+            <div class="card">
+                <h5>Defective Products</h5>
+                <h4>120</h5>
+            </div>
+
+            <div class="card">
+                <h5>Total Customers</h5>
+                <h4>120</h4>
+            </div>
+        </div>
+        <div class="charts-row-1-bar-only">
+            <div class="chart-container-large-bar-only">
+                <h3 style="text-align: center;">GRAPHICAL REPORTS</h3>
+
+                <div class="bar-chart-legend">
+                    <div class="legend-item today">Today</div>
+                    <div class="legend-item this-month">This Month</div>
+                    <div class="legend-item all-time">All Time</div>
+                </div>
+                <canvas id="barChart" class="chart-canvas"></canvas>
+            </div>
+            <div class="chart-container-large-pie">
+                <h3 style="text-align: center;">CATEGORY - WISE SALES</h3>
+
+                <div class="pie-chart-header-buttons">
+                    <button class="pie-btn active">All Time</button>
+                    <button class="pie-btn">This Week</button>
+                    <button class="pie-btn">Today</button>
+                </div>
+
+                <canvas id="categorySalesPie" class="chart-canvas"></canvas>
+            </div>
+        </div>
+        <div class="charts-row-2-pie-only">
+
+            <div class="chart-container-large-pie-reorder">
+                <h3 style="text-align: center;">HIGHLY REORDERED PRODUCTS</h3>
+
+                <div class="pie-chart-header-buttons">
+                    <button class="pie-btn">All Time</button>
+                    <button class="pie-btn">This Week</button>
+                    <button class="pie-btn">Today</button>
+                </div>
+
+                <canvas id="reorderedProductsPie" class="chart-canvas"></canvas>
+            </div>
+
+            <div class="chart-container-large-line">
+                <h3 style="text-align: center;">ORDER VOLUME TREND</h3>
+                <canvas id="orderVolumeTrend" class="chart-canvas"></canvas>
+            </div>
+
+        </div>
+        </div>
+    </main>
+    </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
+    <script src="../JS files/dashboard.js?v=13"></script>
+</body>
+
+</html>

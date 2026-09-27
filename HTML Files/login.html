@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="../CSS files/login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+     
+  <!-- Header Section -->
+  <header>
+    <h2><img src="../Images/grocery.png">LOGIN</h2>
+  </header>
+  
+  <div class="center-container">
+    <div class="login-card">
+      <div class="header-area">
+        <img src="../Images/Loginicon.png" class="icon-placeholder">
+        <h2>LOGIN WITH GROCERY APP</h2>
+      </div>
+      
+      <p>Enter your username or email</p>
+      <input type="text">
+      
+      <p>Enter your password</p>
+      <div class="password-container">
+        <input type="password" id="passwordInput">
+        <i class="fas fa-eye eye-icon" id="togglePassword"></i>
+      </div>
+      
+      <a href="../HTML Files/accountfind.html" class="forgot-link">Forgot Password?</a>
+      
+      <a href="./Dashboard.html" style="text-decoration:none; color:white;">
+        <button class="login-button">Log in</button>
+      </a>
+    </div>
+  </div>
+  
+  <script>
+    const togglePassword = document.getElementById('togglePassword');
+    const passwordInput = document.getElementById('passwordInput');
+    
+    togglePassword.addEventListener('click', function() {
+      // Toggle the input type between password and text
+      const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+      passwordInput.setAttribute('type', type);
+      
+      // Toggle the eye icon between eye and eye-slash
+      this.classList.toggle('fa-eye');
+      this.classList.toggle('fa-eye-slash');
+    });
+  </script>
+</body>
+</html>

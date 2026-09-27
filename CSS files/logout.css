@@ -1,0 +1,47 @@
+/* Reset and base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #b7f27e 0%, #d6f6a7 40%, #68d4b2 100%);
+}
+
+/* Centered container */
+.logout-container {
+    text-align: center;
+    color: #111;
+}
+
+/* Image styling */
+.check-icon {
+    width: 26px; /* adjust according to your Check.png */
+    height: 26px;
+    vertical-align: middle;
+    margin-right: 8px;
+    transform: translateY(-2px);
+}
+
+/* Message text */
+.message {
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 600;
+    color: #111;
+    vertical-align: middle;
+}
+
+/* NEW: Style for the redirection message */
+.redirecting-message {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+}

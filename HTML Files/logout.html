@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logged Out</title>
+    <link rel="stylesheet" href="../CSS files/logout.css">
+</head>
+<body>
+    <div class="logout-container">
+        <img src="../Images/Check.png" alt="check icon" class="check-icon">
+        <p class="message">You've been logged out.</p>
+        <p class="redirecting-message">Redirecting to login page....</p>
+    </div>
+
+    <script>
+        // Set the duration for the page to be displayed (in milliseconds)
+        const REDIRECT_DELAY_MS = 2000; // 4 seconds
+
+        // Execute the redirection after the delay
+        setTimeout(() => {
+            // Since "login.html" is in the same folder as "logout.html", we use './login.html'
+            window.location.href = './login.html'; 
+        }, REDIRECT_DELAY_MS);
+    </script>
+    
+</body>
+</html>

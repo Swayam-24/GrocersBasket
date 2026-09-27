@@ -1,0 +1,108 @@
+/* Background Gradient */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #E7FEB9 0%, #E7FEB9 30%, #34b9a9 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header */
+    header {
+      position: fixed;   /*  Always at the top */
+      top: 0;
+      left: 0;
+      width: 100%;       /*  Full width */
+      background: linear-gradient(to right, #C3F781, #4AFFE9);
+      padding: 15px 30px;
+      box-sizing: border-box;
+      z-index: 1000;
+      display: flex;
+      align-items: center;     /*  Ensures it stays above content */
+    }
+
+
+    header h2 {
+       display: flex;              /* Let text + image align in a line */
+       align-items: center;        /* Vertically center icon & text */
+       margin: 0;
+       font-size: 22px;
+       font-weight: bold;
+       color: #000;
+       gap: 8px;                  /* Space between icon & text */
+}
+    header img {
+      width: 35px;
+      height: 35px;
+      object-fit: contain;
+      vertical-align: middle;
+    }
+    
+    /* Add space so content doesn’t hide under header */
+    .forgot-container {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 80px 20px 20px; /*  Top padding accounts for fixed header */
+    }
+
+    /* Card */
+    .forgot-card {
+      background: transparent;
+      text-align: center;
+      width: 300px;
+    }
+
+    .forgot-card h3 {
+      font-weight: 800;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .forgot-card p {
+      font-size: 14px;
+      color: #333;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+
+    /* Input */
+    .forgot-card input {
+      width: 90%;
+      padding: 8px;
+      border: none;
+      border-radius: 6px;
+      background: #fff;
+      margin-bottom: 15px;
+      font-size: 14px;
+      box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    /* Button */
+    .forgot-card button {
+      width: 70%;
+      padding: 10px;
+      background-color: #1e5a8f;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      font-size: 15px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+
+    /* Responsive */
+    @media (max-width: 576px) {
+      header h2 {
+        font-size: 18px;
+      }
+      .forgot-card {
+        width: 90%;
+      }
+    }
+
+    
