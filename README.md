@@ -1,66 +1,42 @@
-# 🛒 GrocersBasket - Grocery Store Management System
+# 🛒 GrocersBasket - Grocery Admin Dashboard UI
 
-**GrocersBasket** is a comprehensive, responsive web-based admin dashboard designed for managing grocery store operations, inventory, customer orders, transactions, and employee management.
-
----
-
-## 📌 GitHub Short Description (About Section)
-
-> *A modern, responsive Web Admin Dashboard for Grocery Store operations featuring inventory management, order tracking, transaction history, delivery partners, and user analytics.*
+**GrocersBasket** is a responsive frontend HTML/CSS/JavaScript admin dashboard interface designed for grocery store management and operational visualization.
 
 ---
 
-## 🚀 Key Features
+## 📌 GitHub Description (About Section)
 
-- 📊 **Dashboard Analytics**: Overview of total orders, revenue, pending orders, delivered packages, and returns with daily and weekly breakdown filters.
-- 📦 **Product & Stock Management**: Monitor product listings, track stock levels, and identify **Most Ordered** vs. **Least Ordered** items.
-- 🛍️ **Order Management**: Track customer orders from placement to fulfillment with status updates.
-- 🚚 **Delivery Partner Management**: Manage delivery personnel, route assignments, and delivery progress.
-- 👥 **User & Employee Management**: Admin portal to view user accounts, employee profiles, and staff assignments.
-- 💳 **Transaction Records**: Detailed payment histories, financial logs, and CSV/PDF export capability.
-- 🏷️ **Promotions & Offers**: Manage promotional campaigns, discount codes, and special store offers.
-- 🔐 **Authentication & Security**: Includes Login, Logout, Account Recovery, and Verification workflows.
+> *A responsive frontend Admin Dashboard UI for grocery store management built with HTML, CSS, JavaScript, and Chart.js.*
+
+---
+
+## 🚀 Features Implemented
+
+- 📊 **Interactive Analytics**: Dashboard graphs powered by Chart.js (Bar, Line, and Pie charts) displaying order trends, category sales, and reorder metrics with time-filter buttons.
+- 🖥️ **Multi-Page Admin Layouts**: Includes UI screens for:
+  - **Dashboard**: High-level statistics and chart visualizers.
+  - **Products & Stock**: Listings for products, stock levels, most ordered, and least ordered items.
+  - **Order Management**: Order tracking and status tables.
+  - **Delivery & Staff**: Delivery partner listings and employee directories.
+  - **Transactions & Promotions**: Transaction history logs and promotional offers.
+  - **Account Screens**: Login, logout, account recovery, and verification templates.
+- 🎨 **Custom Styling**: Clean, responsive layout built with CSS flexbox/grid and Google Fonts (*Outfit*).
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML5, CSS3, JavaScript (ES6)
-- **Typography**: Google Fonts (*Outfit*)
-- **Icons**: Custom SVG & PNG UI Icon Assets
+- **HTML5**
+- **CSS3** (Custom stylesheets)
+- **JavaScript (ES6)**
+- **Chart.js & ChartDataLabels** (Data visualization)
 
 ---
 
-## 📂 Project Structure
+## 💻 How to View
 
-```text
-Grocery Website/
-├── CSS files/          # Styling sheets for each portal page
-├── HTML Files/          # Page layouts (Dashboard, Orders, Products, Users, etc.)
-├── Images/              # UI Icons and graphic assets
-├── JS Files/            # Interactive UI scripts & handlers
-└── README.md            # Project documentation
-```
-
----
-
-## 💻 Quick Start
-
-1. **Clone the repository**:
+1. Clone or download the repository:
    ```bash
    git clone https://github.com/YOUR_USERNAME/grocery-website.git
    ```
-2. **Open the project**:
-   - Simply navigate to the `HTML Files` directory and open `login.html` or `Dashboard.html` in any web browser.
-
----
-
-## 📸 Screenshots
-
-*(Add screenshots of your Dashboard, Product Stock, and Order Management pages here)*
-
----
-
-## 📝 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+2. Open `HTML Files/Dashboard.html` or `HTML Files/login.html` in any web browser.
