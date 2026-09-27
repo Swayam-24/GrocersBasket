@@ -22,18 +22,21 @@ aside {
   top: 0;
   border-right: 1px solid black;
   box-sizing: border-box;
-  padding-top: 10px;
+  padding-top: 0;
 }
 
 aside h2 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 24px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     font-weight: 800;
-    color: #0b3c2d;
-    padding: 18px 20px 10px 20px;
-    margin: 0;
+    color: #000000;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    padding: 0 0 0 25px;
+    margin: 0;
 }
 
 aside img {
@@ -396,14 +399,17 @@ button {
   }
 
   aside h2 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 24px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     font-weight: 800;
-    color: #0b3c2d;
-    padding: 18px 20px 10px 20px;
-    margin: 0;
+    color: #000000;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    padding: 0 0 0 25px;
+    margin: 0;
 }
 
   .menu > li {
@@ -486,14 +492,17 @@ button {
   }
 
   aside h2 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 24px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     font-weight: 800;
-    color: #0b3c2d;
-    padding: 18px 20px 10px 20px;
-    margin: 0;
+    color: #000000;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    padding: 0 0 0 25px;
+    margin: 0;
 }
 
   aside img {
@@ -636,14 +645,17 @@ button {
   }
 
   aside h2 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 24px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     font-weight: 800;
-    color: #0b3c2d;
-    padding: 18px 20px 10px 20px;
-    margin: 0;
+    color: #000000;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    padding: 0 0 0 25px;
+    margin: 0;
 }
 
   aside img {
@@ -760,14 +772,17 @@ button {
   }
 
   aside h2 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 24px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     font-weight: 800;
-    color: #0b3c2d;
-    padding: 18px 20px 10px 20px;
-    margin: 0;
+    color: #000000;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    padding: 0 0 0 25px;
+    margin: 0;
 }
 
   aside img {
@@ -895,14 +910,17 @@ button {
   }
 
   aside h2 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 24px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     font-weight: 800;
-    color: #0b3c2d;
-    padding: 18px 20px 10px 20px;
-    margin: 0;
+    color: #000000;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    padding: 0 0 0 25px;
+    margin: 0;
 }
 
   aside img {
@@ -1033,14 +1051,17 @@ button {
   }
 
   aside h2 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 24px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     font-weight: 800;
-    color: #0b3c2d;
-    padding: 18px 20px 10px 20px;
-    margin: 0;
+    color: #000000;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    padding: 0 0 0 25px;
+    margin: 0;
 }
 
   aside img {
