@@ -1,6 +1,6 @@
-# 🛒 GrocersBasket - Grocery Admin Dashboard UI
+# 🛒 Grocery Admin Dashboard UI Mockup
 
-**GrocersBasket** is a responsive frontend HTML/CSS/JavaScript admin dashboard interface designed for grocery store management and operational visualization.
+It is a responsive frontend HTML/CSS/JavaScript admin dashboard interface designed for grocery store management and operational visualization.
 
 ---
 
